@@ -36,31 +36,9 @@
 
 - <a href="https://t.me/SNEHABHI_SERVER"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram">
 
-### ⚔ Self-hosting (For Devs) 
 
-```sh
 
-# Install Git First (apt-instll git)
 
-$ git clone https://github.com/ABHINETWORK1/TEAM-SNEHABHI
-
-$ cd Aditya-Player
-
-# Upgrade sources
-
-# Install All Requirements 
-
-$ pip(3) install -r requirements.txt
-
-# Rename example.env to local.env and fill
-
-$ npm i -g npm
-
-# Start Bot 
-
-$ python(3) -m TEAM-SNEHABHI
-
-```
 ### Commands for Group 🛠
 #### For all in group
 
@@ -131,8 +109,6 @@ For linked group admins only:
 - `/unblock` - unblock people you blocked for using your bot
 - `/blocklist` - show the list of all people who's blocked for using your bot
 
-## 🔎 Inline Search Support
-- just type the bot username in any chat, example: "`@VeezMusicBot Faded Alan Walker`", then bot will give you a results of the query you search in inline mode.
 
 ## Heroku Deployment 💜
 The easy way to host this bot, deploy to Heroku, Change the app country to Europe (it will help to make the bot stable).
