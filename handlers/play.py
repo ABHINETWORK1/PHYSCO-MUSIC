@@ -118,9 +118,9 @@ async def playlist(client, message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("💫𝚂𝚄𝙿𝙿𝙾𝚁T✨", url=f"https://t.me/SNEHABHI_SERVER"),
                 InlineKeyboardButton(
-                    "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    "💫 𝙲𝙷𝙰𝙽𝙽𝙴𝙻✨", url=f"https://t.me/SNEHABHI_UPDATES"
                 ),
             ]
         ]
@@ -174,17 +174,31 @@ def r_ply(type_):
         pass
     mar = InlineKeyboardMarkup(
         [
-            [
-                InlineKeyboardButton("⏹", "leave"),
-                InlineKeyboardButton("⏸", "puse"),
-                InlineKeyboardButton("▶️", "resume"),
-                InlineKeyboardButton("⏭", "skip"),
-            ],
-            [
-                InlineKeyboardButton("📖 PLAY-LIST", "playlist"),
-            ],
-            [InlineKeyboardButton("🗑 Close", "cls")],
-        ]
+          [
+
+                    InlineKeyboardButton(text="💫 𝙲𝙷𝙰𝙽𝙽𝙴𝙻✨", url=f"https://t.me/ABHI_NETWORK1"),
+
+                    InlineKeyboardButton(text="💫𝚂𝚄𝙿𝙿𝙾𝚁T✨", url=f"https://t.me/SNEHABHI_SERVER")
+
+            ],[
+
+                    InlineKeyboardButton(
+
+                           text="💫 𝙼𝙰𝚂𝚃𝙸 𝙶𝚁𝙾𝚄𝙿 👈", url=f"https://t.me/LIVE_LIKE_LIFE")
+
+            ],[       
+
+                    InlineKeyboardButton(
+
+                           text="💫𝙾𝚆𝙽𝙴𝚁 𝙺𝙸𝙽𝙶✨", url=f"https://t.me/SNEHU_IS_MINE")
+
+            ],[           
+
+                    InlineKeyboardButton(
+
+                           text="💫𝙾𝚆𝙽𝙴𝚁 𝚀𝚄𝙴𝙴𝙽✨", url=f"HTTP://T.ME/ABHI_IS_MINE")
+              ]
+         ]
     )
     return mar
 
@@ -260,9 +274,9 @@ async def p_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("💫𝚂𝚄𝙿𝙿𝙾𝚁T✨", url=f"https://t.me/SNEHABHI_SERVER"),
                 InlineKeyboardButton(
-                    "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    "💫 𝙲𝙷𝙰𝙽𝙽𝙴𝙻✨", url=f"https://t.me/SNEHABHI_UPDATES"
                 ),
             ],
             [InlineKeyboardButton("🔙 Go Back", callback_data="menu")],
@@ -308,9 +322,9 @@ async def m_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("💫𝚂𝚄𝙿𝙿𝙾𝚁T✨", url=f"https://t.me/SNEHABHI_SERVER"),
                 InlineKeyboardButton(
-                    "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    "💫 𝙲𝙷𝙰𝙽𝙽𝙴𝙻✨", url=f"https://t.me/SNEHABHI_UPDATES"
                 ),
             ],
             [InlineKeyboardButton("🔙 Go Back", callback_data="menu")],
@@ -416,16 +430,30 @@ async def m_cb(b, cb):
         marr = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("⏹", "leave"),
-                    InlineKeyboardButton("⏸", "puse"),
-                    InlineKeyboardButton("▶️", "resume"),
-                    InlineKeyboardButton("⏭", "skip"),
-                ],
-                [
-                    InlineKeyboardButton("📖 PLAY-LIST", "playlist"),
-                ],
-                [InlineKeyboardButton("🗑 Close", "cls")],
-            ]
+
+                    InlineKeyboardButton(text="💫 𝙲𝙷𝙰𝙽𝙽𝙴𝙻✨", url=f"https://t.me/ABHI_NETWORK1"),
+
+                    InlineKeyboardButton(text="💫𝚂𝚄𝙿𝙿𝙾𝚁T✨", url=f"https://t.me/SNEHABHI_SERVER")
+
+            ],[
+
+                    InlineKeyboardButton(
+
+                           text="💫 𝙼𝙰𝚂𝚃𝙸 𝙶𝚁𝙾𝚄𝙿 👈", url=f"https://t.me/LIVE_LIKE_LIFE")
+
+            ],[       
+
+                    InlineKeyboardButton(
+
+                           text="💫𝙾𝚆𝙽𝙴𝚁 𝙺𝙸𝙽𝙶✨", url=f"https://t.me/SNEHU_IS_MINE")
+
+            ],[           
+
+                    InlineKeyboardButton(
+
+                           text="💫𝙾𝚆𝙽𝙴𝚁 𝚀𝚄𝙴𝙴𝙽✨", url=f"HTTP://T.ME/ABHI_IS_MINE")
+             ]
+         ]
         )
         await cb.message.edit(stats, reply_markup=marr)
 
@@ -483,7 +511,7 @@ async def play(_, message: Message):
     global useer
     if message.chat.id in DISABLED_GROUPS:
         return
-    lel = await message.reply("🔎 **searching...**")
+    lel = await message.reply("𝚁𝚄𝙺𝙾 𝚉𝙰𝚁𝙰 𝚂𝙰𝙱𝙰𝚁 𝙺𝙰𝚁𝙾 ⭐ 𝚂𝙾𝙽𝙶 𝙳𝙷𝚄𝙽𝙳𝙷 𝚁𝙰𝙷𝙰 𝙷𝚄 ❤️...uploaded by @SNEHABHI_SERVER ✨  ♩✌")
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
     try:
@@ -561,14 +589,30 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("• Mᴇɴᴜ", callback_data="menu"),
-                    InlineKeyboardButton("• Cʟᴏsᴇ", callback_data="cls"),
-                ],
-                [
+
+                    InlineKeyboardButton(text="💫 𝙲𝙷𝙰𝙽𝙽𝙴𝙻✨", url=f"https://t.me/ABHI_NETWORK1"),
+
+                    InlineKeyboardButton(text="💫𝚂𝚄𝙿𝙿𝙾𝚁T✨", url=f"https://t.me/SNEHABHI_SERVER")
+
+            ],[
+
                     InlineKeyboardButton(
-                        "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
-                    )
-                ],
+
+                           text="💫 𝙼𝙰𝚂𝚃𝙸 𝙶𝚁𝙾𝚄𝙿 👈", url=f"https://t.me/LIVE_LIKE_LIFE")
+
+            ],[       
+
+                    InlineKeyboardButton(
+
+                           text="💫𝙾𝚆𝙽𝙴𝚁 𝙺𝙸𝙽𝙶✨", url=f"https://t.me/SNEHU_IS_MINE")
+
+            ],[           
+
+                    InlineKeyboardButton(
+
+                           text="💫𝙾𝚆𝙽𝙴𝚁 𝚀𝚄𝙴𝙴𝙽✨", url=f"HTTP://T.ME/ABHI_IS_MINE")
+
+                ]
             ]
         )
         file_name = get_file_name(audio)
@@ -585,7 +629,7 @@ async def play(_, message: Message):
         )
     elif urls:
         query = toxt
-        await lel.edit("🔎 **searching...**")
+        await lel.edit("𝚁𝚄𝙺𝙾 𝚉𝙰𝚁𝙰 𝚂𝙰𝙱𝙰𝚁 𝙺𝙰𝚁𝙾 ⭐ 𝚂𝙾𝙽𝙶 𝙳𝙷𝚄𝙽𝙳𝙷 𝚁𝙰𝙷𝙰 𝙷𝚄 ❤️...uploaded by @SNEHABHI_SERVER ✨  ♩✌")
         ydl_opts = {"format": "bestaudio[ext=m4a]"}
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
@@ -610,14 +654,30 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("• Mᴇɴᴜ", callback_data="menu"),
-                    InlineKeyboardButton("• Cʟᴏsᴇ", callback_data="cls"),
-                ],
-                [
+
+                    InlineKeyboardButton(text="💫 𝙲𝙷𝙰𝙽𝙽𝙴𝙻✨", url=f"https://t.me/ABHI_NETWORK1"),
+
+                    InlineKeyboardButton(text="💫𝚂𝚄𝙿𝙿𝙾𝚁T✨", url=f"https://t.me/SNEHABHI_SERVER")
+
+            ],[
+
                     InlineKeyboardButton(
-                        "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
-                    )
-                ],
+
+                           text="💫 𝙼𝙰𝚂𝚃𝙸 𝙶𝚁𝙾𝚄𝙿 👈", url=f"https://t.me/LIVE_LIKE_LIFE")
+
+            ],[       
+
+                    InlineKeyboardButton(
+
+                           text="💫𝙾𝚆𝙽𝙴𝚁 𝙺𝙸𝙽𝙶✨", url=f"https://t.me/SNEHU_IS_MINE")
+
+            ],[           
+
+                    InlineKeyboardButton(
+
+                           text="💫𝙾𝚆𝙽𝙴𝚁 𝚀𝚄𝙴𝙴𝙽✨", url=f"HTTP://T.ME/ABHI_IS_MINE")
+
+                ]
             ]
         )
         message.from_user.first_name
@@ -645,7 +705,7 @@ async def play(_, message: Message):
             while j < 5:
                 toxxt += f"{emojilist[j]} [{results[j]['title'][:25]}...](https://youtube.com{results[j]['url_suffix']})\n"
                 toxxt += f" ├ 💡 **Duration** - `{results[j]['duration']}`\n"
-                toxxt += f" └ ⚡ __Powered by {BOT_NAME}__\n\n"
+                toxxt += f" └ ⚡ __Powered by @SNEHABHI_SERVER__\n\n"
                 j += 1
             keyboard = InlineKeyboardMarkup(
                 [
@@ -703,15 +763,31 @@ async def play(_, message: Message):
                 return
             keyboard = InlineKeyboardMarkup(
                 [
-                    [
-                        InlineKeyboardButton("• Mᴇɴᴜ", callback_data="menu"),
-                        InlineKeyboardButton("• Cʟᴏsᴇ", callback_data="cls"),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
-                        )
-                    ],
+                   [
+
+                    InlineKeyboardButton(text="💫 𝙲𝙷𝙰𝙽𝙽𝙴𝙻✨", url=f"https://t.me/ABHI_NETWORK1"),
+
+                    InlineKeyboardButton(text="💫𝚂𝚄𝙿𝙿𝙾𝚁T✨", url=f"https://t.me/SNEHABHI_SERVER")
+
+            ],[
+
+                    InlineKeyboardButton(
+
+                           text="💫 𝙼𝙰𝚂𝚃𝙸 𝙶𝚁𝙾𝚄𝙿 👈", url=f"https://t.me/LIVE_LIKE_LIFE")
+
+            ],[       
+
+                    InlineKeyboardButton(
+
+                           text="💫𝙾𝚆𝙽𝙴𝚁 𝙺𝙸𝙽𝙶✨", url=f"https://t.me/SNEHU_IS_MINE")
+
+            ],[           
+
+                    InlineKeyboardButton(
+
+                           text="💫𝙾𝚆𝙽𝙴𝚁 𝚀𝚄𝙴𝙴𝙽✨", url=f"HTTP://T.ME/ABHI_IS_MINE")
+
+                ]
                 ]
             )
             message.from_user.first_name
@@ -774,7 +850,7 @@ async def lol_cb(b, cb):
     if cb.from_user.id != useer_id:
         await cb.answer("💡 sorry, this is not for you !", show_alert=True)
         return
-    # await cb.message.edit("🔁 **processing...**")
+    # await cb.message.edit("𝙹𝚄𝚂𝚃 𝚆𝙰𝙸𝚃 𝙰 𝚂𝙴𝙲𝙾𝙽𝙳 💫🥺 𝙵𝙾𝚁 𝙿𝙻𝙰𝚈 𝚂𝙾𝙽𝙶 😋❤️...uploaded by @SNEHABHI_SERVER ✨  ♩✌")
     x = int(x)
     try:
         cb.message.reply_to_message.from_user.first_name
@@ -811,11 +887,30 @@ async def lol_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("• Mᴇɴᴜ", callback_data="menu"),
-                InlineKeyboardButton("• Cʟᴏsᴇ", callback_data="cls"),
-            ],
-            [InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}")],
-        ]
+
+                    InlineKeyboardButton(text="💫 𝙲𝙷𝙰𝙽𝙽𝙴𝙻✨", url=f"https://t.me/ABHI_NETWORK1"),
+
+                    InlineKeyboardButton(text="💫𝚂𝚄𝙿𝙿𝙾𝚁T✨", url=f"https://t.me/SNEHABHI_SERVER")
+
+            ],[
+
+                    InlineKeyboardButton(
+
+                           text="💫 𝙼𝙰𝚂𝚃𝙸 𝙶𝚁𝙾𝚄𝙿 👈", url=f"https://t.me/LIVE_LIKE_LIFE")
+
+            ],[       
+
+                    InlineKeyboardButton(
+
+                           text="💫𝙾𝚆𝙽𝙴𝚁 𝙺𝙸𝙽𝙶✨", url=f"https://t.me/SNEHU_IS_MINE")
+
+            ],[           
+
+                    InlineKeyboardButton(
+
+                           text="💫𝙾𝚆𝙽𝙴𝚁 𝚀𝚄𝙴𝙴𝙽✨", url=f"HTTP://T.ME/ABHI_IS_MINE")
+                  ]
+           ]
     )
     await generate_cover(title, thumbnail, ctitle)
     file_path = await converter.convert(youtube.download(url))
@@ -866,7 +961,7 @@ async def ytplay(_, message: Message):
     global que
     if message.chat.id in DISABLED_GROUPS:
         return
-    lel = await message.reply("🔎 **searching...**")
+    lel = await message.reply("𝙹𝚄𝚂𝚃 𝚆𝙰𝙸𝚃 𝙰 𝚂𝙴𝙲𝙾𝙽𝙳 💫🥺 𝙵𝙾𝚁 𝙿𝙻𝙰𝚈 𝚂𝙾𝙽𝙶 😋❤️...uploaded by @SNEHABHI_SERVER ✨  ♩✌")
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
 
