@@ -1,35 +1,107 @@
-<p align="center"><a href="https://t.me/VeezMusicBot"><img src="https://github.com/levina-lab/VeezMusic/raw/main/etc/veezlogo.png"></a></p>
-<p align="center">
-    <br><b>Veez Music is a telegram bot project that's allow you to play music on telegram voice chat group</b><br>
-</p>
-<p align="center">
-    <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
-    <a href="https://github.com/levina-lab/VeezMusic/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-red.svg?style=flat-square" /></a>
-    <a href="https://app.codacy.com/gh/levina-lab/VeezMusic/dashboard"> <img src="https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=red&logo=codacy&style=flat-square" alt="Codacy" /></a><br>
-    <a href="https://github.com/levina-lab/VeezMusic"> <img src="https://img.shields.io/github/repo-size/levina-lab/VeezMusic?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/levina-lab/VeezMusic/commits/main"> <img src="https://img.shields.io/github/last-commit/levina-lab/VeezMusic?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/levina-lab/VeezMusic/issues"> <img src="https://img.shields.io/github/issues/levina-lab/VeezMusic?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/levina-lab/VeezMusic/network/members"> <img src="https://img.shields.io/github/forks/levina-lab/VeezMusic?color=red&logo=github&logoColor=blue&style=flat-square" /></a>  
-    <a href="https://github.com/levina-lab/VeezMusic/network/members"> <img src="https://img.shields.io/github/stars/levina-lab/VeezMusic?color=red&logo=github&logoColor=blue&style=flat-square" /></a>  
-</p>
+<h2 align="centre">😘𝐒𝐍𝐄𝐇𝐀 𝐋𝐎𝐕𝐄 𝐀𝐁𝐇𝐈 𝐌𝐔𝐒𝐈𝐂🎵</h2>
 
-<h3>Requirements 📝</h3>
+### A bot that can play music on Telegram Group and Channel Voice Chats
+
+<p align="center">
+  <img src="https://telegra.ph/file/4637473e97df9854a1b36.jpg">
+### Deploy To Railway 🚄</h5>
+
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/AdityaHalder/ABHINETWORK1/TEAM-SNEHABHI&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,BOT_NAME,SUPPORT_GROUP,PROJECT_NAME,ARQ_API_KEY,ASSISTANT_NAME,BG_IMAGE,UPDATES_CHANNEL,API_ID,PMPERMIT,API_HASH,SUDO_USERS,DURATION_LIMIT)
+
+###  GET STRING SESSION FROM REPL RUN
+
+ [![Run on Repl.it](https://camo.githubusercontent.com/05149b448485553c6f14f6430a45c12dcc79ed3c/68747470733a2f2f7265706c2e69742f62616467652f6769746875622f6a61727669733231303930342f4a6172766973)](https://replit.com/@ABHIMUSIC)
+
+### Features✨
+
+- Thumbnail Support
+- Playlist Support
+- Current playback support
+- Showing track names when skipping
+- Zero downtime, Fully Stable
+- DEEZER,YOUTUBE & SAAVN PLAYBACK SUPPORTED
+- Settings panel
+- Control with buttons
+- Userbot auto join
+- Channel Music Play
+
+
+### Requirements 📝
 
 - FFmpeg
+
 - NodeJS [nodesource.com](https://nodesource.com/)
-- Python 3.7 or higher
-- [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
-- [MongoDB](https://cloud.mongodb.com/)
 
-### 🧪 Get `SESSION_NAME` from below:
+- Python 3.7+
 
-[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@levinalab/StringSession#main.py) ``Pyrogram``
+- <a href="https://t.me/SNEHABHI_SERVER"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram">
 
-### 🎖 History
+### ⚔ Self-hosting (For Devs) 
 
-[![Mentioned in Awesome Python](https://awesome.re/mentioned-badge.svg)](https://github.com/levina-lab/VeezMusic)
+```sh
 
-## Features 🔮
+# Install Git First (apt-instll git)
+
+$ git clone https://github.com/ABHINETWORK1/TEAM-SNEHABHI
+
+$ cd Aditya-Player
+
+# Upgrade sources
+
+# Install All Requirements 
+
+$ pip(3) install -r requirements.txt
+
+# Rename example.env to local.env and fill
+
+$ npm i -g npm
+
+# Start Bot 
+
+$ python(3) -m TEAM-SNEHABHI
+
+```
+### Commands for Group 🛠
+#### For all in group
+
+- `/play <song name>` - play song you requested with choose option
+- `/play <reply to audio>` - play replied file
+- `/yplay <song name>` - play song you requested via youtube without choose option
+- `/dplay <song name>` - play song you requested via deezer
+- `/splay <song name>` - play song you requested via jio saavn
+- `/playlist` - Show now playing list
+- `/current` - Show now playing
+- `/song <song name>` - download songs you want quickly
+- `/search <query>` - search videos on youtube with details
+- `/deezer <song name>` - download songs you want quickly via deezer
+- `/saavn <song name>` - download songs you want quickly via saavn
+- `/video <song name>` - download videos you want quickly
+
+#### Admins only.
+- `/player` - open music player settings panel
+- `/pause` - pause song play
+- `/resume` - resume song play
+- `/skip` - play next song
+- `/end` - stop music play
+- `/userbotjoin` - invite assistant to your chat
+- `/userbotleave` - remove assistant from your chat
+- `/reload` - Refresh admin list
+
+### Commands for Channel Music Play 🛠
+For linked group admins only:
+- `/cplay <song name>` - play song you requested
+- `/cplay <reply to audio>` - play replied file
+- `/cdplay <song name>` - play song you requested via deezer
+- `/csplay <song name>` - play song you requested via jio saavn
+- `/cplaylist` - Show now playing list
+- `/cccurrent` - Show now playing
+- `/cplayer` - open music player settings panel
+- `/cpause` - pause song play
+- `/cresume` - resume song play
+- `/cskip` - play next song
+- `/cend` - stop music play
+- `/userbotjoinchannel` - invite assistant to your chat
+* channel is also can be used instead of c
 
 - Thumbnail Support
 - Playlist Support
@@ -46,33 +118,7 @@
 - Statistic Collector
 - Block / Unblock (restrict user for using your bot)
 
-## Commands 🛠
-
-- `/play <song name>` - play song you requested
-- `/playlist` - Show now playing list
-- `/song <song name>` - download songs you want quickly
-- `/search <query>` - search videos on youtube with details
-- `/vsong <song name>` - download videos you want quickly
-- `/lyric <song name>` - lyrics scrapper
-
-#### Admins Only 👷‍♂️
-- `/player` - open music player settings panel
-- `/pause` - pause song play
-- `/resume` - resume song play
-- `/skip` - play next song
-- `/end` - stop music play
-- `/musicplayer on` - to disable music player in your group
-- `/musicplayer off` - to enable music player in your group
-- `/join` - invite assistant to your chat
-- `/leave` - remove assistant from your chat
-- `/reload` - Refresh admin list
-- `/uptime` - check the bot uptime status
-- `/ping` - check the bot ping status
-- `/auth` - authorized people to access the admin commands
-- `/deauth` - deauthorized people to access the admin commands
-- `/control` - open the music player control panel
-
-### Sudo User 🧙‍♂️
+    ### Sudo User 🧙‍♂️
 - `/stats` - see the bot statistic
 - `/pmpermit on | off` turn on/off the assistant pmpermit
 - `/leaveall` - order the assistant to leave all groups
@@ -91,7 +137,7 @@
 ## Heroku Deployment 💜
 The easy way to host this bot, deploy to Heroku, Change the app country to Europe (it will help to make the bot stable).
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/levina-lab/veezmusic)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ABHINETWORK1/PHYSCO-MUSIC)
 
 ## VPS Deployment 📡
 
@@ -102,7 +148,7 @@ pip3 install -U pip
 curl -sL https://deb.nodesource.com/setup_16.x | bash -
 sudo apt-get install -y nodejs
 npm i -g npm
-git clone https://github.com/levina-lab/VeezMusic # Clone your repo.
+git clone https://github.com/ABHINETWORK1/PHYSCO-MUSIC # Clone your repo.
 cd VeezMusic
 pip3 install -U -r requirements.txt
 cp example.env .env #Use vim to edit ENVs
@@ -111,15 +157,11 @@ python3 main.py # Run the bot
 ```
 
 ### Special Credits 💖
-- [Levina](https://github.com/levina-lab): Dev
-- [Tofik](https://github.com/tofikdn): Dev
-- [Zxce3](https://github.com/Zxce3): Dev
-- [Hyoka-XD](https://github.com/PratheekXD) Contributor
-- [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
-- [Original Repo](https://github.com/callsmusic/callsmusic) CallsMusic
-- [Veez Music Bot](https://t.me/veezmusicbot) Our Music Bot
-- [RojSerBest](https://github.com/rojserbest) CallsMusic Developer
-- [TeamDaisyX](https://github.com/TeamDaisyX) for base code
+
+
+<a href="https://t.me/SNEHU_IS_MINE"><img src="https://img.shields.io/badge/CREATOR-OWNER%20KING-blue.svg?style=for-the-badge&logo=Telegram">
+
+<a href="https://t.me/ABHI_IS_MINE"><img src="https://img.shields.io/badge/DEVELOPER-OWNER%20QUEEN-blue.svg?style=for-the-badge&logo=Telegram">
 
 ### Support & Updates 🎑
-<a href="https://t.me/VeezSupportGroup"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/levinachannel"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/SNEHABHI_SERVER"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/SNEHABHI_UPDATES"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
