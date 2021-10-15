@@ -1,4 +1,4 @@
-<h2 align="centre">😘𝐒𝐍𝐄𝐇𝐀 𝐋𝐎𝐕𝐄 𝐀𝐁𝐇𝐈 𝐌𝐔𝐒𝐈𝐂🎵</h2>
+<h2 align="centre">😘𝐒𝐍𝐄𝐇𝐀 𝐀𝐁𝐇𝐈 𝐌𝐔𝐒𝐈𝐂🎵</h2>
 
 ### A bot that can play music on Telegram Group and Channel Voice Chats
 
