@@ -1,9 +1,9 @@
 {
-    "name": "Veez Music Bot",
+    "name": "SNEHABHI SERVER MUSIC",
     "logo": "https://telegra.ph/file/9dd9b20abcda2d7bb6725.png",
     "description": "veez music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/levina-lab/veezmusic",
+    "repository": "https://github.com/ABHINETWORK1/PHYSCO-MUSIC",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -57,7 +57,7 @@
         "ALIVE_NAME": {
             "description": "fill with the nickname of your telegram account",
             "required": false,
-            "value": "Levina"
+            "value": "SNEHABHI"
         },
         "API_ID": {
             "description": "your Api ID from my.telegram.org/apps",
@@ -79,12 +79,12 @@
         "UPDATES_CHANNEL": {
             "description": "if you have channel fill the channel username here without @",
             "required": false,
-            "value": "levinachannel"
+            "value": "SNEHABHI_UPDATES"
         },
         "GROUP_SUPPORT": {
             "description": "if you have group fill the group username here without @",
             "required": false,
-            "value": "VeezSupportGroup"
+            "value": "SNEHABHI_SERVER"
         }
     },
     "buildpacks": [
