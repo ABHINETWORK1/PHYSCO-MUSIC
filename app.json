@@ -1,6 +1,6 @@
 {
     "name": "SNEHABHI SERVER MUSIC",
-    "logo": "https://telegra.ph/file/9dd9b20abcda2d7bb6725.png",
+    "logo": "https://telegra.ph/file/4637473e97df9854a1b36.png",
     "description": "veez music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
     "repository": "https://github.com/ABHINETWORK1/PHYSCO-MUSIC",
@@ -37,22 +37,22 @@
         "BOT_USERNAME": {
             "description": "fill with your bot username without @",
             "required": true,
-            "value": "veezmusicbot"
+            "value": "SNEHABHI_BOT"
         },
         "ASSISTANT_NAME": {
             "description": "fill with the assistant username without @",
             "required": true,
-            "value": "veezasisstant"
+            "value": "SNEHABHI_MUSICS"
         },
         "BG_IMAGE": {
             "description": "fill with your costum background image link",
             "required": false,
-            "value": "https://telegra.ph/file/20147c4f049e2c1f2f248.png"
+            "value": "https://telegra.ph/file/4637473e97df9854a1b36.png"
         },
         "OWNER_NAME": {
             "description": "fill with your username without @",
             "required": false,
-            "value": "dlwrml"
+            "value": "SNEHU_IS_MINE"
         },
         "ALIVE_NAME": {
             "description": "fill with the nickname of your telegram account",
