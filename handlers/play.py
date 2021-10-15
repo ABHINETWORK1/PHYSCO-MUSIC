@@ -176,7 +176,7 @@ def r_ply(type_):
         [
           [
 
-                    InlineKeyboardButton(text="💫 𝙲𝙷𝙰𝙽𝙽𝙴𝙻✨", url=f"https://t.me/ABHI_NETWORK1"),
+                    InlineKeyboardButton(text="💫 𝙲𝙷𝙰𝙽𝙽𝙴𝙻✨", url=f"https://t.me/SNEHABHI_UPDATES"),
 
                     InlineKeyboardButton(text="💫𝚂𝚄𝙿𝙿𝙾𝚁T✨", url=f"https://t.me/SNEHABHI_SERVER")
 
@@ -431,7 +431,7 @@ async def m_cb(b, cb):
             [
                 [
 
-                    InlineKeyboardButton(text="💫 𝙲𝙷𝙰𝙽𝙽𝙴𝙻✨", url=f"https://t.me/ABHI_NETWORK1"),
+                    InlineKeyboardButton(text="💫 𝙲𝙷𝙰𝙽𝙽𝙴𝙻✨", url=f"https://t.me/SNEHABHI_UPDATES"),
 
                     InlineKeyboardButton(text="💫𝚂𝚄𝙿𝙿𝙾𝚁T✨", url=f"https://t.me/SNEHABHI_SERVER")
 
@@ -590,7 +590,7 @@ async def play(_, message: Message):
             [
                 [
 
-                    InlineKeyboardButton(text="💫 𝙲𝙷𝙰𝙽𝙽𝙴𝙻✨", url=f"https://t.me/ABHI_NETWORK1"),
+                    InlineKeyboardButton(text="💫 𝙲𝙷𝙰𝙽𝙽𝙴𝙻✨", url=f"https://t.me/SNEHABHI_UPDATES"),
 
                     InlineKeyboardButton(text="💫𝚂𝚄𝙿𝙿𝙾𝚁T✨", url=f"https://t.me/SNEHABHI_SERVER")
 
@@ -617,7 +617,7 @@ async def play(_, message: Message):
         )
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/4637473e97df9854a1b36.png"
+        thumb_name = "https://telegra.ph/file/611b133991268a6170ad6.png"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         message.from_user.first_name
@@ -647,7 +647,7 @@ async def play(_, message: Message):
             results[0]["views"]
         except Exception as e:
             await lel.edit(
-                "😕 **couldn't find song you requested**\n\n» **please provide the correct song name or include the artist's name as well**"
+                "🧐 **/𝐏𝐋𝐀𝐘 𝐊𝐄 𝐁𝐀𝐃 𝐒𝐎𝐍𝐆🌺 𝐊𝐀 𝐍𝐀𝐌 𝐁𝐇𝐈 𝐋𝐈𝐊𝐇𝐍𝐀 🙄𝐇𝐎𝐓𝐀 𝐇𝐀𝐈🥺🧿🤟...uploaded by @SNEHABHI_SERVER ✨**"
             )
             print(str(e))
             return
@@ -655,7 +655,7 @@ async def play(_, message: Message):
             [
                 [
 
-                    InlineKeyboardButton(text="💫 𝙲𝙷𝙰𝙽𝙽𝙴𝙻✨", url=f"https://t.me/ABHI_NETWORK1"),
+                    InlineKeyboardButton(text="💫 𝙲𝙷𝙰𝙽𝙽𝙴𝙻✨", url=f"https://t.me/SNEHABHI_UPDATES"),
 
                     InlineKeyboardButton(text="💫𝚂𝚄𝙿𝙿𝙾𝚁T✨", url=f"https://t.me/SNEHABHI_SERVER")
 
@@ -765,7 +765,7 @@ async def play(_, message: Message):
                 [
                    [
 
-                    InlineKeyboardButton(text="💫 𝙲𝙷𝙰𝙽𝙽𝙴𝙻✨", url=f"https://t.me/ABHI_NETWORK1"),
+                    InlineKeyboardButton(text="💫 𝙲𝙷𝙰𝙽𝙽𝙴𝙻✨", url=f"https://t.me/SNEHABHI_UPDATES"),
 
                     InlineKeyboardButton(text="💫𝚂𝚄𝙿𝙿𝙾𝚁T✨", url=f"https://t.me/SNEHABHI_SERVER")
 
@@ -888,7 +888,7 @@ async def lol_cb(b, cb):
         [
             [
 
-                    InlineKeyboardButton(text="💫 𝙲𝙷𝙰𝙽𝙽𝙴𝙻✨", url=f"https://t.me/ABHI_NETWORK1"),
+                    InlineKeyboardButton(text="💫 𝙲𝙷𝙰𝙽𝙽𝙴𝙻✨", url=f"https://t.me/SNEHABHI_UPDATES"),
 
                     InlineKeyboardButton(text="💫𝚂𝚄𝙿𝙿𝙾𝚁T✨", url=f"https://t.me/SNEHABHI_SERVER")
 
