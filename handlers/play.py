@@ -568,7 +568,7 @@ async def ytplay(_, message: Message):
     for i in message.command[1:]:
         query += " " + str(i)
     print(query)
-    await lel.edit("🔄 **connecting to vc...**")
+    await lel.edit("🔄 **𝙹𝚄𝚂𝚃 𝚆𝙰𝙸𝚃 𝙰 𝚂𝙴𝙲𝙾𝙽𝙳 💫🥺 𝙵𝙾𝚁 𝙿𝙻𝙰𝚈 𝚂𝙾𝙽𝙶 😋.Uploaded by @SNEHABHI_SERVER..**")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
