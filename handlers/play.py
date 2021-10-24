@@ -131,7 +131,7 @@ async def playlist(client, message):
         return
     queue = que.get(message.chat.id)
     if not queue:
-        await message.reply_text("❌ **no music is currently playing**")
+        await message.reply_text("❌ **KOI SONG PLAY HI NI HAI**")
     temp = []
     for t in queue:
         temp.append(t)
@@ -184,7 +184,7 @@ def r_ply(type_):
 
                     InlineKeyboardButton(
 
-                           text="💫 𝙼𝙰𝚂𝚃𝙸 𝙶𝚁𝙾𝚄𝙿 👈", url=f"https://t.me/LIVE_LIKE_LIFE")
+                           text="💫 JOIN 𝙼𝙰𝚂𝚃𝙸 𝙶𝚁𝙾𝚄𝙿 👈", url=f"https://t.me/LIVE_LIFE_LIKE")
 
             ],[       
 
@@ -377,7 +377,7 @@ async def m_cb(b, cb):
     elif type_ == "playlist":
         queue = que.get(cb.message.chat.id)
         if not queue:
-            await cb.message.edit("❌ **no music is currently playing**")
+            await cb.message.edit("❌ **KOI SONG PLAY HI NAHI HAi**")
         temp = []
         for t in queue:
             temp.append(t)
@@ -439,7 +439,7 @@ async def m_cb(b, cb):
 
                     InlineKeyboardButton(
 
-                           text="💫 𝙼𝙰𝚂𝚃𝙸 𝙶𝚁𝙾𝚄𝙿 👈", url=f"https://t.me/LIVE_LIKE_LIFE")
+                           text="💫JOIN 𝙼𝙰𝚂𝚃𝙸 𝙶𝚁𝙾𝚄𝙿 👈", url=f"https://t.me/LIVE_LIFE_LIKE")
 
             ],[       
 
@@ -615,7 +615,7 @@ async def ytplay(_, message: Message):
 
                     InlineKeyboardButton(
 
-                           text="💫 𝙼𝙰𝚂𝚃𝙸 𝙶𝚁𝙾𝚄𝙿 👈", url=f"https://t.me/LIVE_LIKE_LIFE")
+                           text="💫JOIN 𝙼𝙰𝚂𝚃𝙸 𝙶𝚁𝙾𝚄𝙿 👈", url=f"https://t.me/LIVE_LIFE_LIKE")
 
             ],[       
 
