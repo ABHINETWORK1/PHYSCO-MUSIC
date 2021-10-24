@@ -459,7 +459,7 @@ async def m_cb(b, cb):
 
     elif type_ == "skip":
         nmq = "❌ no more music in __Queues__\n\n» **userbot leaving** voice chat"
-        mmk = "⏭ you skipped to the next music"
+        mmk = "⏭ CURRENT SONG SKIPPED JOIN @SNEHABHI_SERVER"
         if qeue:
             qeue.pop(0)
         if chet_id not in callsmusic.pytgcalls.active_calls:
@@ -568,7 +568,7 @@ async def ytplay(_, message: Message):
     for i in message.command[1:]:
         query += " " + str(i)
     print(query)
-    await lel.edit("🔄 **𝙹𝚄𝚂𝚃 𝚆𝙰𝙸𝚃 𝙰 𝚂𝙴𝙲𝙾𝙽𝙳 💫🥺 𝙵𝙾𝚁 𝙿𝙻𝙰𝚈 𝚂𝙾𝙽𝙶 😋.Uploaded by @SNEHABHI_SERVER..**")
+    await lel.edit("🔄 **𝙹𝚄𝚂𝚃 𝚆𝙰𝙸𝚃 𝙰 𝚂𝙴𝙲𝙾𝙽𝙳 💫🥺 𝙵𝙾𝚁 𝙿𝙻𝙰𝚈 𝚂𝙾𝙽𝙶 😋.JOIN @SNEHABHI_SERVER..**")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -646,7 +646,7 @@ async def ytplay(_, message: Message):
         qeue.append(appendable)
         await message.reply_photo(
             photo="final.png",
-            caption=f"💡 **RUKO ZARA SABAR AAPKA SONG IS SONG KE BAD CHALEGA ITNE NO. PE »** `{position}`\n\n🏷 **JO SONG AAPNE PLAY KIYA HAI USKA NAM😉👉** [{title[:35]}...]({url})\n⏱ **JO ITNE MINUTES KA HAI 👉** `{duration}`\n🎧 **JISNE IS SONG KO PLAY KIYA HAI USKA NAM 👉 ** {message.from_user.mention}",
+            caption=f"💡 **JOIN SNEHABHI_SERVER**/n **RUKO ZARA SABAR AAPKA SONG IS SONG KE BAD CHALEGA ITNE NO. PE »** `{position}`\n\n🏷 **JO SONG AAPNE PLAY KIYA HAI USKA NAM😉👉** [{title[:35]}...]({url})\n⏱ **JO ITNE MINUTES KA HAI 👉** `{duration}`\n🎧 **JISNE IS SONG KO PLAY KIYA HAI USKA NAM 👉 ** {message.from_user.mention}",
             reply_markup=keyboard,
         )
     else:
@@ -668,7 +668,7 @@ async def ytplay(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             caption=f"🏷 **JO SONG AAPNE PLAY KIYA HAI USKA NAM😉👉** [{title[:60]}]({url})\n⏱ **JO ITNE MINUTES KA HAI👉** `{duration}`\n💡 **status:** `Playing`\n"
-            + f"🎧 **JISNE IS SONG KO PLAY TKIYA HAI USKA USERNAME 😌👉** {message.from_user.mention}",
+            + f"🎧 **JISNE IS SONG KO PLAY KIYA HAI USKA USERNAME 😌👉** {message.from_user.mention}",
             reply_markup=keyboard,
         )
         os.remove("final.png")
