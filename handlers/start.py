@@ -81,7 +81,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 Source Code", url="https://github.com/ABHINETWORK1/PHYSCO-MUSIC"
+                        "DEPLOY OUR OWN BOT", url="https://github.com/ABHINETWORK1/PHYSCO-MUSIC"
                     )
                 ],
             ]
