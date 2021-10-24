@@ -54,11 +54,6 @@
             "required": false,
             "value": "SNEHU_IS_MINE"
         },
-        "ALIVE_NAME": {
-            "description": "fill with the nickname of your telegram account",
-            "required": false,
-            "value": "SNEHABHI"
-        },
         "API_ID": {
             "description": "your Api ID from my.telegram.org/apps",
             "required": true
@@ -75,16 +70,7 @@
             "description": "max duration for music to download (in minutes).",
             "required": true,
             "value": "40"
-        },
-        "UPDATES_CHANNEL": {
-            "description": "if you have channel fill the channel username here without @",
-            "required": false,
-            "value": "SNEHABHI_UPDATES"
-        },
-        "GROUP_SUPPORT": {
-            "description": "if you have group fill the group username here without @",
-            "required": false,
-            "value": "SNEHABHI_SERVER"
+        
         }
     },
     "buildpacks": [
