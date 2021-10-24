@@ -25,14 +25,6 @@
 - Python 3.7+
 
 - <a href="https://t.me/SNEHABHI_SERVER"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram">
-h
-
-
-
-
-
-
-h
 ## Heroku Deployment 💜
 The easy way to host this bot, deploy to Heroku, Change the app country to Europe (it will help to make the bot stable).
 
