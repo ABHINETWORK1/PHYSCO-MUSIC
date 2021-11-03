@@ -190,13 +190,13 @@ def r_ply(type_):
 
                     InlineKeyboardButton(
 
-                           text="💫𝙾𝚆𝙽𝙴𝚁 𝙺𝙸𝙽𝙶✨", url=f"https://t.me/SNEHU_IS_MINE")
+                           text="💫𝙾𝚆𝙽𝙴𝚁 𝙺𝙸𝙽𝙶✨", url=f"https://t.me/SNEHABHI_KING")
 
             ],[           
 
                     InlineKeyboardButton(
 
-                           text="💫𝙾𝚆𝙽𝙴𝚁 𝚀𝚄𝙴𝙴𝙽✨", url=f"HTTP://T.ME/ABHI_IS_MINE")
+                           text="💫𝙾𝚆𝙽𝙴𝚁 𝚀𝚄𝙴𝙴𝙽✨", url=f"HTTP://T.ME/SNEHABHI_QUEEN")
               ]
          ]
     )
